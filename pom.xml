@@ -132,7 +132,7 @@
                         <version>${maven-surefire-plugin.version}</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/test/resources/suites/${suite}.xml</suiteXmlFile>
+                                <suiteXmlFile>src/test/resources/execute/${suite}.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
