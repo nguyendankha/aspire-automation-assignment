@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Odoo Tests" verbose="1" parallel="tests" thread-count="99">
+
+    <test name="Chrome Execution">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.aspire.auto.test.LoginTest"/>
+            <class name="com.aspire.auto.test.LandingPageNavigationTest"/>
+            <class name="com.aspire.auto.test.CreateProductTest"/>
+            <class name="com.aspire.auto.test.CreateNewOrderTest"/>
+        </classes>
+    </test>
+
+</suite>
