@@ -5,7 +5,7 @@ Automation Test Assignment For Aspire
 
 This assignment uses the below frameworks / libraries:
 
-* **Java 11**: the programming language
+* **Java 8**: the programming language
 * **TestNG**: test framework
 * **Selenium WebDriver**: the web browser automation tool
 * **AssertJ**: assertion library
