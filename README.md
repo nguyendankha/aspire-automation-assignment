@@ -18,6 +18,12 @@ This assignment uses the below frameworks / libraries:
 ## Execution
 
 For test running in local, please do as below steps:
+
+**Pre-conditions:**
+1. Clone repo as https://github.com/nguyendankha/aspire-automation-assignment.git
+2. Open IDE and reload Maven dependencies for loading/downloading all needed libraries
+
+**Steps:**
 1. Go to **src/test/resources/execute/** folder
 2. Right-click on **local.xml** file
 3. Select **Run ...** setting
@@ -31,7 +37,7 @@ After test run finished, use the Terminal/cmd to check the report:
 ## Assignment architecture
 
 * **Page Object Model** pattern
-* Execution types: There are **local** and **remote** target modes (grid selenium)
+* **Execution types**: There are **local** and **remote** target modes (grid selenium)
 * **BaseTest**: Setup and tear down for the tests
 * **TestListener**: Log and report
 * **Log**: Log during test runtime
